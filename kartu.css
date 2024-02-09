@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 7500px;
+}
+
+.kartu {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin: 7.5rem 15rem 7.5rem 0;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
